@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Title Generator</title>
+</head>
+<body>
+  <h1>Title generator</h1>
+
+  <form name="form-generator">
+    <input type="text" placeholder="Write the languaje" name="languaje" id="languaje" required/>
+    <input type="number" name="number" max="9" placeholder="Number of words" id="numberOfWords" required/>
+    <textarea type="text" id="text" rows="20" width="100" class="parraph" placeholder="Insert here the text to generate the title" name="parraph" required></textarea>
+    <button type="submit" id="generateButton">Generate</button>
+  </form>
+  
+  <h2 id="fieldsRequire"></h2>
+  <h2 id="title-generated">Titulo que será generado</h2>
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
