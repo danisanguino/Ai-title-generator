@@ -1,3 +1,5 @@
+@use "../globlal" as v;
+
 .form {
   display: flex;
   flex-direction: column;
@@ -5,9 +7,49 @@
 }
 
 input {
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
   background: transparent;
+  &::placeholder{
+    color: white;
+  } 
 }
 
 textarea {
+  border: none;
+  border-bottom: 1px solid white;
   background-color: transparent;
+  color: white;
+  // border-radius: 5px;
+  &::placeholder{
+    color: white;
+  }
 }
+
+button {
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 1rem 0;
+  color: white;
+  font-family: v.$principalFont;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  &:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    // color: red;
+    // opacity: 4;
+  }
+}
+
+
+
+.copy-title {
+  background-color: white;
+}
+
+.hide {
+  display: none
+} 

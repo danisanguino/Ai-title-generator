@@ -12,10 +12,10 @@ generateButton.addEventListener("click", (event) => {
   
   if( !languaje) {
     return alert("Please fill the languaje")
-  } else if (!numberOfWords) {
-    return alert =("Please fill the number of words")
+  } else if (!numberOfWords ) {
+    return alert("Please fill the number of words")
   } else if (!text) {
-    return alert =("Please fill the text to generate the title")
+    return alert("Please fill the text to generate the title")
   }
   
   async function getCompletion() {
@@ -42,6 +42,16 @@ generateButton.addEventListener("click", (event) => {
     };
     
     getCompletion();
+    
+    const copyButton = document.getElementById("copy-title");
+    setTimeout(() => {
+      copyButton.classList.remove("hide");
+    }, 2000);
 
   });
+
+
+  copyButton.addEventListener("click", ()=> {
+    //funcionalidad de copiar lo que esta en el div del título
+  })
   
