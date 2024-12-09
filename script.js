@@ -32,7 +32,7 @@ generateButton.addEventListener("click", (event) => {
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo-instruct",
-          prompt: `Redacta un títular completo en ${numberOfWords} palabra/s en ${languaje} a partir de "${text}, no pongas : para comenzar el título, que sea directo"`,
+          prompt: `Redacta un títular completo en ${numberOfWords} palabra/s en ${languaje} a partir de "${text}", no pongas : para comenzar el título, que sea directo"`,
           max_tokens: 30,
           temperature: 0,
         }),
