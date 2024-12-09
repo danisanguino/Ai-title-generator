@@ -33,10 +33,10 @@ To get started with the project, follow these steps:
 
 1. **Run the project locally**:
     ```bash
-    npm start
+    npm run dev
     ```
 
-2. **Open your web browser** and go to `http://localhost:3000` (or the specified port).
+2. **Open your web browser** and go to `http://localhost:5173` (or the specified port).
 
 3. **Fill in the necessary fields**:
     - **Language**: Select the language in which you want the title. 🌐
