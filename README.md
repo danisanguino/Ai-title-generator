@@ -1,5 +1,7 @@
 # AI Title Generator 🚀
 
+<img src="./public/ai-title-generator.jpg" alt="image ai title generator"/>
+
 **AI Title Generator** is a simple and powerful web application developed using **Vanilla JavaScript** and styled with **SASS**, leveraging the cutting-edge capabilities of **OpenAI's API**. This tool helps users create compelling and creative titles from any text input by choosing the language and the number of words for the title.
 
 ## Features ✨
